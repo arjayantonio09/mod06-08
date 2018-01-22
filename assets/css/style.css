@@ -1,33 +1,20 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 body {
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
-	background: url(https://media.giphy.com/media/lzU2Vr8csxioM/giphy.gif);
+	font-family: cursive;
+	text-align: right;
+	padding-right: 50px;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	background-image: url("christmas.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-}
-
-h1 {
-	margin: 25px 0px;
-	color: white;
 }
 
 p {
-	font-size: 25px;
-	color: white;
+	display: none;
+	font-weight: normal;
 }
 
-button {
-	padding: 10px;
-	font-size: 20px;
-	margin: 10px;
+#day0 {
+	display: block;	
 }
-
